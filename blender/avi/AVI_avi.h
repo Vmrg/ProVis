@@ -304,5 +304,7 @@ AviError AVI_write_frame(AviMovie *movie, int frame_num, ...);
  */
 AviError AVI_print_error(AviError error);
 void AVI_set_debug(int mode);
+AviError AVI_open_movie(const char *name, AviMovie *movie);
+
 
 #endif /* __AVI_AVI_H__ */
